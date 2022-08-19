@@ -1,0 +1,20 @@
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: #f2f2f2;
+    align-items: center;
+
+  
+
+}
+.Navbar > p {
+    cursor: pointer;
+
+}
+@media (max-width: 800px) {
+    .Navbar > p {
+        display: none;
+    
+    }
+  }
